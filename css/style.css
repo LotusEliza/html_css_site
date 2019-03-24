@@ -120,7 +120,6 @@ li a:hover:not(.active) {
 }
 
 .button.btn-red.btn-small {
-    padding: 5px 10px 5px 10px;
     color: white;
     display: inline-block;
     border-radius: 5px;
@@ -132,6 +131,11 @@ li a:hover:not(.active) {
 
 .button.btn-red:hover {
     background: #AE5547;
+}
+
+.btn-small{
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
 }
 
 /*-------------------------SPRITE------------------------------*/
