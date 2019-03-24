@@ -129,8 +129,8 @@ li a:hover:not(.active) {
 .three-columns {
     background: #6dc5dd;
     padding-top: 20px;
-    padding-right: 80px;
-    padding-left: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
     padding-bottom: 20px;
     color: #fff;
     text-align: center
