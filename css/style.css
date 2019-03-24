@@ -112,30 +112,16 @@ li a:hover:not(.active) {
 
 /*-------------------------BUTTONS------------------------------*/
 
-.text-left .button.btn-red {
+.button{
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
     padding: 5px 10px 5px 10px;
-    color: white;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.button.btn-red.btn-small {
-    color: white;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.button.btn-red {
     background: #ee7261;
 }
 
-.button.btn-red:hover {
+.button:hover {
     background: #AE5547;
-}
-
-.btn-small{
-    padding: 5px 10px 5px 10px;
-    font-size: 12px;
 }
 
 /*-------------------------SPRITE------------------------------*/
@@ -277,11 +263,8 @@ li a:hover:not(.active) {
     }
 
 
-    .text-left .button.btn-red {
+    .text-left .button {
         padding: 15px 20px 15px 20px;
-        color: white;
-        display: inline-block;
-        border-radius: 5px;
     }
 
     .global-nav li {
