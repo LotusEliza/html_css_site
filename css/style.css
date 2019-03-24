@@ -1,0 +1,351 @@
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-left{
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+    font: 400 14px/1.2 Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+    line-height: 1.6;
+}
+
+.content-padding {
+    padding: 15px 10px 0px 10px;
+}
+
+.global-wrap {
+    background: #FFFFFF;
+    max-width: 1170px;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+}
+
+/*-------------------------HEADER------------------------------*/
+
+.global-header {
+    padding: 30px 20px;
+}
+
+.global-nav {
+    float: right;
+}
+
+.global-nav li a {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+li a:hover:not(.active) {
+    color: #54c7dd;
+}
+
+.global-nav li {
+    float: left;
+    list-style-type: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 20px;
+}
+
+.global-nav ul li:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+/*-------------------------SLIDER------------------------------*/
+
+.gradient-background{
+    background-image: linear-gradient(#EDEDED, #FFFFFF);
+}
+
+.text-slider{
+    line-height: 1;
+    float: right;
+    width: 45%;
+    padding-top: 8%;
+}
+
+.page-tile{
+    width: 45%;
+    padding-left: 5%;
+    float: left;
+}
+
+.page-tile img{
+    float: left;
+    width: 100%;
+}
+
+.text-slider h3{
+    font-size: 2.5vw;;
+    font-weight: 100;
+    color: #004D54;
+    margin-bottom: 0;
+}
+
+.text-slider h1{
+    font-size: 3.5vw;
+    color: #00414A;
+    margin-top: 5px;
+    font-weight: 900;
+}
+
+.text-slider p{
+    font-size: 1.5vw;;
+    color: #8A8A8A;
+    padding-bottom: 15px;
+    line-height: 1.6;
+}
+
+/*-------------------------BUTTONS------------------------------*/
+
+.text-left .button.btn-red {
+    padding: 5px 10px 5px 10px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.button.btn-red.btn-small {
+    padding: 5px 10px 5px 10px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.button.btn-red {
+    background: #ee7261;
+}
+
+.button.btn-red:hover {
+    background: #AE5547;
+}
+
+.btn-small{
+    padding: 9px 14px 9px 14px;
+    font-size: 12px;
+}
+
+/*-------------------------SPRITE------------------------------*/
+
+.three-columns {
+    background: #6dc5dd;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center
+}
+
+.three-columns .one-box {
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.icon-in-column {
+    background: url('../images/col_pic_slider.png') no-repeat 0px 0px;
+    width: 63px;
+    height: 63px;
+    margin: 0 auto;
+}
+
+.icon-in-column.icon-2 {
+    background-position: -63px 0;
+}
+
+.icon-in-column.icon-3 {
+    background-position: -126px 0;
+}
+
+.read-more-arrow {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+
+.read-more-arrow:hover{
+   font-size: 18px;
+}
+
+.arrow{
+    position: relative;
+    top:3px;
+    left:7px;
+}
+
+/*-------------------------SIDEBAR LEFT------------------------------*/
+
+.articles{
+    background-color: #ffffff;
+    padding: 15px 20px;
+}
+
+.sidebar {
+    float: left;
+}
+
+.sidebar-panel {
+    background: #FFFFFF;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar-tile{
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.sidebar-cont{
+    float: left;
+}
+
+.sidebar-cont p{
+    color: #8c9193;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.sidebar-cont h3{
+    color: #133e48;
+}
+
+/*-------------------------COMMENTS RIGHT------------------------------*/
+
+.comments {
+    float: right;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.comments > section:first-child{
+    float: left;
+}
+
+.comments-panel{
+    width: 42%;
+    float: right;
+}
+.comments-panel{
+    background: #ececec;
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 20px;
+}
+
+.comments-panel p{
+    color: #999d9f;
+    line-height: 1.6;
+}
+
+.comments-panel .panel-body > p:last-child{
+    color: #ee7869;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*-------------------------FOOTER------------------------------*/
+
+.global-footer{
+    background-color: #ee7261;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+/*-------------------------MEDIA------------------------------*/
+
+@media screen and (min-width: 836px) {
+    .content-padding {
+        padding: 35px 20px 0px 20px;
+    }
+
+    .text-left .button.btn-red {
+        padding: 10px 15px 10px 15px;
+        color: #fff;
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    .global-nav li {
+        float: left;
+        list-style-type: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-right: 1px solid #E6E6E6;
+        margin-top: 20px;
+    }
+
+    .three-columns > div {
+        float: left;
+        width: 33.3333%;
+    }
+
+    .icon-in-column {
+        position: absolute;
+        top: 0;
+        left: 15px;
+    }
+
+    .three-columns .one-box {
+        padding-left: 93px;
+        position: relative;
+        min-height: 63px;
+        padding-right: 10px;
+        text-align: justify;
+    }
+
+    .sidebar {
+        float: left;
+        width: 70%;
+    }
+
+    .comments {
+        width: 27%;
+        padding-top: 15px;
+        padding-right: 5px;
+        text-align: justify;
+    }
+
+    .comments-panel{
+        width: auto;
+        background: #ececec;
+        padding: 15px 25px 15px 25px;
+        margin-bottom: 20px;
+    }
+    .comments-panel{
+        background: #ececec;
+        padding: 15px 25px 15px 25px;
+        margin-bottom: 20px;
+    }
+
+    .three-columns {
+        background: #6dc5dd;
+        padding-top: 80px;
+        padding-right: 65px;
+        padding-left: 50px;
+        padding-bottom: 65px;
+        color: #fff;
+        text-align: center
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .comments-panel {
+        width: auto;
+    }
+}
