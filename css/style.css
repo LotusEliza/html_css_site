@@ -43,7 +43,7 @@ body {
 
 .global-nav li a {
     color: #777777;
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: 600;
     padding-right: 10px;
 }
@@ -120,7 +120,7 @@ li a:hover:not(.active) {
     background: #ee7261;
 }
 
-.button:hover {
+.button.btn-red:hover {
     background: #AE5547;
 }
 
@@ -135,6 +135,7 @@ li a:hover:not(.active) {
     color: #fff;
     text-align: center
 }
+
 
 .three-columns .one-box {
     text-align: center;
@@ -174,11 +175,6 @@ li a:hover:not(.active) {
 
 /*-------------------------SIDEBAR LEFT------------------------------*/
 
-.articles{
-    background-color: #ffffff;
-    padding: 15px 20px;
-}
-
 .sidebar {
     float: left;
 }
@@ -193,7 +189,6 @@ li a:hover:not(.active) {
 .sidebar-tile{
     float: left;
     padding-right: 20px;
-    /*padding-top: 20px;*/
 }
 
 .sidebar-cont{
@@ -228,8 +223,6 @@ li a:hover:not(.active) {
 .comments-panel{
     width: 42%;
     float: right;
-}
-.comments-panel{
     background: #ececec;
     padding: 15px 25px 15px 25px;
     margin-bottom: 20px;
@@ -268,8 +261,6 @@ li a:hover:not(.active) {
     }
 
     .global-nav li {
-        float: left;
-        list-style-type: none;
         padding-left: 20px;
         padding-right: 20px;
         border-right: 1px solid #E6E6E6;
@@ -302,31 +293,17 @@ li a:hover:not(.active) {
 
     .comments {
         width: 27%;
-        padding-top: 15px;
-        padding-right: 5px;
-        text-align: justify;
     }
 
     .comments-panel{
         width: auto;
-        background: #ececec;
-        padding: 15px 25px 15px 25px;
-        margin-bottom: 20px;
-    }
-    .comments-panel{
-        background: #ececec;
-        padding: 15px 25px 15px 25px;
-        margin-bottom: 20px;
     }
 
     .three-columns {
-        background: #6dc5dd;
         padding-top: 80px;
         padding-right: 65px;
         padding-left: 50px;
         padding-bottom: 65px;
-        color: #fff;
-        text-align: center
     }
 }
 
